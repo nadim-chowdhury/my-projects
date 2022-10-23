@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+span{
+    color: #00ff99;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+    color: #00ff99;
+    transition: 0.5s;
+}
+
+.btn{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid #00ff99;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+
+.btn:hover{
+    color: black;
+    background-color: #00ff99;
+    transition: 0.5s;
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 60px;
+}
+
+h3{
+    color: orangered;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: orangered;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 120px 14px 14px;
+    outline: none;
+    border: 2px solid #1e1e1e;
+    border-radius: 30px;
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #00ff99;
+    top: 5px;
+    right: 6px;
+}
+
+.newsletter form input:last-child:hover{
+    color: #00ff99;
+    background-color: #000d13;
+    transition: 0.5s;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #000d13;
+}
+
+.about img{
+    height: auto;
+    width: 360px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main img{
+    border-radius: 25px;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: orangered;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #00ff99;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 15px 35px;
+    transition: 0.5s;
+    border: 2px solid #000d13;
+}
+
+button:hover{
+    background-color: orangered;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid #000d13;
+}
+
+.btncls{
+    text-align: center;
+}
+
+.service{
+    background: #00111a;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.title h2{
+    color: orangered;
+    font-size: 60px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 360px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #000d13;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #00ff99;
+}
+
+h5{
+    color: orangered;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.pra{
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.pra p{
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: #00ff99;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+.card .button:hover{
+    background-color: #000d13;
+    border: 3px solid #00ff99;
+    color: #00ff99;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #000d13;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+    background-color: #00ff99;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 80px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two:hover{
+    background-color: orangered;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
