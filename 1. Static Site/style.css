@@ -1,33 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
 }
 
-body{
+body {
     background-color: #e6e6e6;
 }
 
-.template{
+.template {
     width: 960px;
     height: 1245px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.header{
+.header {
     background-color: #04aa66;
     height: 80px;
     width: 100%;
     border-radius: 8px;
 }
 
-.header img{
+.header img {
     height: 80px;
     width: 80px;
     padding-left: 35px;
 }
 
-.header p{
+.header p {
     color: #000000;
     float: right;
     font-size: 36px;
@@ -35,12 +38,12 @@ body{
 
 }
 
-.header p:hover{
+.header p:hover {
     color: #ffffff;
     transition: 0.5s;
 }
 
-.navbar{
+.navbar {
     background-color: #333333;
     overflow: hidden;
     text-align: center;
@@ -49,7 +52,7 @@ body{
     border-radius: 6px;
 }
 
-.navbar a{
+.navbar a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -58,42 +61,42 @@ body{
     font-size: 16px;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: black;
     background-color: #04aa66;
     border-radius: 6px;
 }
 
-.container{
+.container {
     height: 910px;
     width: 100%;
 }
 
-.maincontent{
+.maincontent {
     height: 860px;
     width: 726px;
     float: left;
 }
 
-.maincontent h2{
+.maincontent h2 {
     background-image: linear-gradient(to left, #e6e6e6, #04aa66);
     padding: 4px;
     border-radius: 8px;
 }
 
-.maincontent p{
+.maincontent p {
     padding: 5px 10px 68px 0;
     text-align: justify;
     text-justify: inter-word;
 }
 
-.maincontent img{
+.maincontent img {
     float: left;
     margin: 5px 5px 5px 0;
     border-radius: 6px;
 }
 
-.maincontent button{
+.maincontent button {
     border: none;
     font-size: 14px;
     float: right;
@@ -104,38 +107,38 @@ body{
     background-color: #333333;
 }
 
-.maincontent button:hover{
-    color:#000000;
+.maincontent button:hover {
+    color: #000000;
     background-color: #04aa66;
     transition: 1s;
 }
 
-.sidebar{
+.sidebar {
     height: 430px;
     width: 234px;
     float: right;
 }
 
-.sidebar h4{
+.sidebar h4 {
     background-image: linear-gradient(to left, #e6e6e6, #04aa66);
     padding: 4px;
     border-radius: 6px;
 }
 
-.sidebar audio{
+.sidebar audio {
     height: 42px;
     width: 222px;
     margin: 5px 5px 5px 0;
     border-radius: 6px;
 }
 
-.sidebar video{
+.sidebar video {
     width: 222px;
     margin: 5px 5px 5px 0;
     border-radius: 6px;
 }
 
-.footer{
+.footer {
     color: #000000;
     width: 940px;
     height: 200px;
@@ -145,11 +148,11 @@ body{
     background-color: #04aa66;
 }
 
-.footer a{
+.footer a {
     border-bottom: 2px solid #333333;
 }
 
-.column{
+.column {
     font-weight: bold;
     height: 160px;
     width: 293px;

@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
 
-.header{
+.header {
     height: 100vh;
     width: 100%;
     background-image: url(images/bg.jpg);
@@ -13,7 +13,7 @@
     background-position: center;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,24 +22,24 @@ nav{
     padding-right: 8%;
 }
 
-.logo{
+.logo {
     color: white;
     font-size: 40px;
     letter-spacing: 2px;
     cursor: pointer;
 }
 
-span{
+span {
     color: #00ff99;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -47,12 +47,12 @@ nav ul li a{
     letter-spacing: 1px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #00ff99;
     transition: 0.5s;
 }
 
-.btn{
+.btn {
     color: white;
     font-size: 15px;
     text-decoration: none;
@@ -63,44 +63,44 @@ nav ul li a:hover{
     transition: transform .5s;
 }
 
-.btn:hover{
+.btn:hover {
     color: black;
     background-color: #00ff99;
     transition: 0.5s;
 }
 
-.content{
+.content {
     position: absolute;
     top: 40%;
     left: 8%;
     transform: translateY(-50%);
 }
 
-h1{
+h1 {
     color: white;
     margin: 20px 0 20px;
     font-size: 60px;
 }
 
-h3{
+h3 {
     color: orangered;
     font-size: 20px;
     margin-bottom: 50px;
 }
 
-h4{
+h4 {
     color: orangered;
     letter-spacing: 2px;
     font-size: 20px;
 }
 
-.newsletter form{
+.newsletter form {
     width: 380px;
     max-width: 100%;
     position: relative;
 }
 
-.newsletter form input:first-child{
+.newsletter form input:first-child {
     display: inline-block;
     width: 100%;
     padding: 14px 120px 14px 14px;
@@ -109,7 +109,7 @@ h4{
     border-radius: 30px;
 }
 
-.newsletter form input:last-child{
+.newsletter form input:last-child {
     position: absolute;
     display: inline-block;
     outline: none;
@@ -121,28 +121,28 @@ h4{
     right: 6px;
 }
 
-.newsletter form input:last-child:hover{
+.newsletter form input:last-child:hover {
     color: #00ff99;
     background-color: #000d13;
     transition: 0.5s;
 }
 
-.about{
+.about {
     width: 100%;
     padding: 100px 0;
     background-color: #000d13;
 }
 
-.about img{
+.about img {
     height: auto;
     width: 360px;
 }
 
-.about-text{
+.about-text {
     width: 550px;
 }
 
-.main{
+.main {
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -151,18 +151,18 @@ h4{
     justify-content: space-around;
 }
 
-.main img{
+.main img {
     border-radius: 25px;
 }
 
-.about-text h2{
+.about-text h2 {
     color: white;
     font-size: 60px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
-.about-text h5{
+.about-text h5 {
     color: orangered;
     letter-spacing: 2px;
     font-size: 24px;
@@ -170,7 +170,7 @@ h4{
     text-transform: capitalize;
 }
 
-.about-text p{
+.about-text p {
     color: white;
     letter-spacing: 1px;
     line-height: 28px;
@@ -178,7 +178,7 @@ h4{
     margin-bottom: 45px;
 }
 
-button{
+button {
     background-color: #00ff99;
     border-radius: 30px;
     font-weight: bold;
@@ -187,7 +187,7 @@ button{
     border: 2px solid #000d13;
 }
 
-button:hover{
+button:hover {
     background-color: orangered;
     color: black;
     transition: 0.5s;
@@ -195,17 +195,17 @@ button:hover{
     border: 2px solid #000d13;
 }
 
-.btncls{
+.btncls {
     text-align: center;
 }
 
-.service{
+.service {
     background: #00111a;
     width: 100%;
     padding: 100px 0;
 }
 
-.title h2{
+.title h2 {
     color: orangered;
     font-size: 60px;
     width: 1130px;
@@ -213,14 +213,14 @@ button:hover{
     text-align: center;
 }
 
-.box{
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 360px;
 }
 
-.card{
+.card {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
@@ -232,7 +232,7 @@ button:hover{
     text-align: center;
 }
 
-.card i{
+.card i {
     font-size: 50px;
     display: block;
     text-align: center;
@@ -240,25 +240,26 @@ button:hover{
     color: #00ff99;
 }
 
-h5{
+h5 {
     color: orangered;
     font-size: 24px;
     margin-bottom: 15px;
 }
 
-.pra{
+.pra {
     color: white;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 25px;
 }
 
-.pra p{
+.pra p {
     margin-bottom: 25px;
 }
 
-.card .button{
+.card .button {
     background-color: #00ff99;
+    border: 2px solid #00ff99;
     border-radius: 30px;
     font-weight: bold;
     padding: 10px 20px;
@@ -267,15 +268,15 @@ h5{
     color: black;
 }
 
-.card .button:hover{
+.card .button:hover {
     background-color: #000d13;
-    border: 3px solid #00ff99;
+    border: 2px solid #00ff99;
     color: #00ff99;
     transition: 0.5s;
     cursor: pointer;
 }
 
-.contact-me{
+.contact-me {
     width: 100%;
     height: 290px;
     background: #000d13;
@@ -285,14 +286,14 @@ h5{
     justify-content: center;
 }
 
-.contact-me p{
+.contact-me p {
     color: white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
 }
 
-.contact-me .button-two{
+.contact-me .button-two {
     background-color: #00ff99;
     border-radius: 30px;
     font-weight: bold;
@@ -303,7 +304,7 @@ h5{
     margin-bottom: 25px;
 }
 
-.contact-me .button-two:hover{
+.contact-me .button-two:hover {
     background-color: orangered;
     color: black;
     transition: 0.5s;
