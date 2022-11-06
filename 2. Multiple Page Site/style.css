@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 
 }
 
-h1{
+h1 {
     margin-bottom: 15px;
 }
 
-#h1{
+#h1 {
     padding-top: 50px;
 }
 
-.header{
+.header {
     min-height: 100vh;
     width: 100%;
     background-image: url(images/bg-cvr.jpg);
@@ -24,7 +24,7 @@ h1{
 
 }
 
-nav{
+nav {
     display: flex;
     padding: 0.5% 6%;
     justify-content: space-between;
@@ -34,29 +34,29 @@ nav{
 
 }
 
-nav img{
+nav img {
     width: 80px;
 }
 
-.nav-links{
+.nav-links {
     flex: 1;
     text-align: right;
 }
 
-.nav-links ul li{
+.nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
 
-.nav-links ul li a{
+.nav-links ul li a {
     color: #111111;
     text-decoration: none;
     font-size: 20px;
 }
 
-.nav-links ul li::after{
+.nav-links ul li::after {
     content: "";
     width: 0%;
     height: 3px;
@@ -66,11 +66,11 @@ nav img{
     transition: 0.5s;
 }
 
-.nav-links ul li:hover::after{
+.nav-links ul li:hover::after {
     width: 100%;
 }
 
-.text-box{
+.text-box {
     width: 90%;
     color: #f2f2f2;
     position: absolute;
@@ -80,16 +80,16 @@ nav img{
     text-align: center;
 }
 
-.text-box h1{
+.text-box h1 {
     font-size: 60px;
 }
 
-.text-box p{
+.text-box p {
     margin: 10px 0 40px;
     font-size: 25px;
 }
 
-.hero-btn{
+.hero-btn {
     display: inline-block;
     text-decoration: none;
     color: #f2f2f2;
@@ -102,25 +102,27 @@ nav img{
     border-radius: 10px;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
     color: #111111;
     border: 1px solid #111111;
     background: #f2f2f2;
     transition: 1s;
 }
 
-nav .fa-solid{
+nav .fa-solid {
     display: none;
 }
 
-@media (max-width: 640px){
-    .text-box h1{
+@media (max-width: 640px) {
+    .text-box h1 {
         font-size: 20px;
     }
-    .nav-links ul li{
+
+    .nav-links ul li {
         display: block;
     }
-    .nav-links{
+
+    .nav-links {
         position: absolute;
         background: #f2f2f2;
         height: 100vh;
@@ -131,31 +133,33 @@ nav .fa-solid{
         z-index: 2;
         transition: 1s;
     }
-    nav .fa-solid{
+
+    nav .fa-solid {
         display: block;
-        color:#111111;
+        color: #111111;
         margin: 10px;
         font-size: 36px;
         cursor: pointer;
     }
-    .nav-links ul{
+
+    .nav-links ul {
         padding: 36px;
     }
 }
 
-.course{
+.course {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.course h1{
+.course h1 {
     font-size: 40px;
     font-weight: 600;
 }
 
-.course p{
+.course p {
     color: #111111;
     font-size: 18px;
     font-weight: 300;
@@ -163,13 +167,13 @@ nav .fa-solid{
     padding: 10px;
 }
 
-.row{
+.row {
     display: flex;
     margin-top: 10%;
     justify-content: space-between;
 }
 
-.course-col{
+.course-col {
     flex-basis: 30%;
     background: #f2f2f2;
     border-radius: 15px;
@@ -179,30 +183,30 @@ nav .fa-solid{
     transition: 0.5s;
 }
 
-.course-col h3{
+.course-col h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
 
-.course-col:hover{
-    box-shadow: 0 0 20px 0 rgba(40,40,40,0.4);
+.course-col:hover {
+    box-shadow: 0 0 20px 0 rgba(40, 40, 40, 0.4);
 }
 
-@media (max-width: 640px){
-    .row{
+@media (max-width: 640px) {
+    .row {
         flex-direction: column;
     }
 }
 
-.campus{
+.campus {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.campus-col{
+.campus-col {
     flex-basis: 24%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -210,12 +214,12 @@ nav .fa-solid{
     overflow: hidden;
 }
 
-.campus-col img{
+.campus-col img {
     width: 100%;
     display: block;
 }
 
-.layer{
+.layer {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -225,11 +229,11 @@ nav .fa-solid{
     transition: 0.5s;
 }
 
-.layer:hover{
-    background: rgba(40,40,40,0.6);
+.layer:hover {
+    background: rgba(40, 40, 40, 0.6);
 }
 
-.layer h3{
+.layer h3 {
     width: 100%;
     font-weight: 500;
     color: #f2f2f2;
@@ -242,52 +246,52 @@ nav .fa-solid{
     transition: 0.5s;
 }
 
-.layer:hover h3{
+.layer:hover h3 {
     bottom: 48%;
     opacity: 1;
 }
 
-.facilities{
+.facilities {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 80px;
 }
 
-.facilities-col{
+.facilities-col {
     flex-basis: 48%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
 
-.facilities-col img{
+.facilities-col img {
     width: 100%;
     border-radius: 10px;
     display: block;
 }
 
-.formllimg{
+.formllimg {
     height: 100%;
 }
 
-.facilities-col h3{
+.facilities-col h3 {
     padding-top: 10px;
 }
 
-.facilities-col p{
+.facilities-col p {
     margin-top: 16px;
     margin-bottom: 16px;
     text-align: left;
 }
 
-.testimonials{
+.testimonials {
     width: 80%;
     margin: auto;
     text-align: center;
 }
 
-.testimonial-col{
+.testimonial-col {
     flex-basis: 26%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -298,7 +302,7 @@ nav .fa-solid{
     display: flex;
 }
 
-.testimonial-col img{
+.testimonial-col img {
     height: 40px;
     margin-left: 5px;
     margin-right: 30px;
@@ -306,27 +310,27 @@ nav .fa-solid{
 
 }
 
-.testimonial-col p{
+.testimonial-col p {
     padding: 0;
 }
 
-.testimonial-col h3{
+.testimonial-col h3 {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: left;
 }
 
-@media (max-width: 640px){
-    .testimonial-col img{
+@media (max-width: 640px) {
+    .testimonial-col img {
         margin-left: 0;
         margin-right: 15px;
     }
 }
 
-.cta{
+.cta {
     margin: 80px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/bg-cvr2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/bg-cvr2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -334,13 +338,13 @@ nav .fa-solid{
     padding: 100px 0;
 }
 
-.cta h1{
+.cta h1 {
     color: #f2f2f2;
     margin-bottom: 40px;
     padding: 0;
 }
 
-.footer{
+.footer {
     background-color: #f2f2f2;
     width: 100%;
     text-align: center;
@@ -350,25 +354,25 @@ nav .fa-solid{
     border-radius: 10px;
 }
 
-.footer h4{
+.footer h4 {
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
 }
 
-.footer h4 a{
-    color:#111111;
+.footer h4 a {
+    color: #111111;
     text-decoration: none;
 }
 
-.footer p{
+.footer p {
     margin: 15px;
 }
 
-.sub-header{
+.sub-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,8,30,0.6),rgba(4,8,30,0.6)), url(images/bg-cvr.jpg);
+    background-image: linear-gradient(rgba(4, 8, 30, 0.6), rgba(4, 8, 30, 0.6)), url(images/bg-cvr.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -376,45 +380,45 @@ nav .fa-solid{
     border-radius: 10px;
 }
 
-.sub-header h1{
+.sub-header h1 {
     margin-top: 80px;
 }
 
-.padd-bott{
+.padd-bott {
     padding-bottom: 20px;
 }
 
-.about-us{
+.about-us {
     width: 80%;
     margin: auto;
     padding-bottom: 5%;
 }
 
-.about-col{
+.about-col {
     flex-basis: 48%;
 }
 
-.about-col img{
+.about-col img {
     width: 100%;
     border-radius: 10px;
 }
 
-.about-col h1{
+.about-col h1 {
     padding-top: 0;
 }
 
-.about-col p{
+.about-col p {
     padding: 15px 0 25px;
 }
 
-.red-btn{
+.red-btn {
     border: 1px solid #111111;
     background: transparent;
     color: #111111;
     margin-bottom: 30px;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
@@ -425,24 +429,24 @@ nav .fa-solid{
     background: #f2f2f2;
 }
 
-.center h3{
+.center h3 {
     text-align: center;
     padding: 20px 0 20px 0;
     border-bottom: 1px solid #111111;
 }
 
-.center form{
+.center form {
     padding: 0 40px;
     box-sizing: border-box;
 }
 
-form .text-field{
+form .text-field {
     position: relative;
     border-bottom: 2px solid #111111;
     margin: 30px 0;
 }
 
-.text-field input{
+.text-field input {
     width: 100%;
     padding: 0 5px;
     height: 40px;
@@ -452,7 +456,7 @@ form .text-field{
     outline: none;
 }
 
-.text-field label{
+.text-field label {
     position: absolute;
     top: 50%;
     left: 5px;
@@ -462,7 +466,7 @@ form .text-field{
     transition: 0.5s;
 }
 
-.text-field span::before{
+.text-field span::before {
     content: "";
     position: absolute;
     top: 40px;
@@ -473,24 +477,24 @@ form .text-field{
     transition: 0.5s;
 }
 
-.text-field input:focus ~ label,
-.text-field input:valid ~ label{
+.text-field input:focus~label,
+.text-field input:valid~label {
     top: -5px;
     color: #111111;
 }
 
-.text-field input:focus ~ span::before,
-.text-field input:focus ~ span::before{
+.text-field input:focus~span::before,
+.text-field input:focus~span::before {
     width: 100%;
 }
 
-.pass{
+.pass {
     margin: -5px 0 20px 5px;
     color: blue;
     cursor: pointer;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     width: 100%;
     height: 50px;
     border: 1px solid;
@@ -501,26 +505,26 @@ input[type="submit"]{
     outline: none;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     color: #f2f2f2;
     background-color: #111111;
     transition: 1s;
 }
 
-.signup-link{
+.signup-link {
     margin: 30px 0;
     text-align: center;
     font-size: 16px;
 }
 
-.signup-link a{
+.signup-link a {
     color: blue;
     text-decoration: none;
     padding: 10px;
     border-radius: 25px;
 }
 
-.comment-box{
+.comment-box {
     border: 1px solid #111111;
     margin: 50px 0;
     padding: 10px 20px;
@@ -529,12 +533,13 @@ input[type="submit"]:hover{
 }
 
 .comment-box h3 {
-	text-align: center;
-	padding: 20px 0 20px 0;
-	border-bottom: 1px solid #111111;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #111111;
 }
 
-.comment-form input, .comment-form textarea{
+.comment-form input,
+.comment-form textarea {
     width: 100%;
     padding: 10px;
     margin: 15px 0;
@@ -544,20 +549,29 @@ input[type="submit"]:hover{
     background: #ffffff;
 }
 
-.post-btn{
+.post-btn {
     margin: 10px 0;
-	width: 100%;
-	height: 50px;
-	border: 1px solid;
-	border-radius: 25px;
-	font-size: 16px;
-	font-weight: 800;
-	cursor: pointer;
-	outline: none;
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    outline: none;
 }
 
-.post-btn:hover{
+.post-btn:hover {
     color: #f2f2f2;
     background-color: #111111;
     transition: 1s;
+}
+
+.cmnt-brdr {
+    border-radius: 10px;
+}
+
+.bg-btn:hover {
+    background-color: #262626;
+    color: #f2f2f2;
 }
