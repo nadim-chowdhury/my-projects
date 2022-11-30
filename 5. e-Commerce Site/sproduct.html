@@ -2,262 +2,286 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-Commerce</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>e-Commerce</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
 </head>
 
 <body>
+  <section id="header">
+    <a href="#"><img src="img/logo.png" class="logo" alt="This is our logo" /></a>
 
-    <section id="header">
-        <a href="#"><img src="img/logo.png" class="logo" alt="This is our logo"></a>
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="lg-bag">
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </li>
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      </ul>
 
-        <div>
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-            </ul>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </section>
 
-            <div id="mobile">
-                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                <i id="bar" class="fa-solid fa-bars"></i>
-            </div>
+  <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+      <img src="img/products/p1.jpg" width="100%" id="mainImg" alt="This is an image" />
 
+      <div class="small-img-group">
+        <div class="small-img-col">
+          <img src="img/products/p12.jpg" width="100%" class="small-img" alt="This is an image" />
         </div>
 
-    </section>
-
-    <section id="prodetails" class="section-p1">
-        <div class="single-pro-image">
-            <img src="img/products/p1.jpg" width="100%" id="mainImg" alt="This is an image">
-
-            <div class="small-img-group">
-                <div class="small-img-col">
-                    <img src="img/products/p12.jpg" width="100%" class="small-img" alt="This is an image">
-                </div>
-
-                <div class="small-img-col">
-                    <img src="img/products/p13.jpg" width="100%" class="small-img" alt="This is an image">
-                </div>
-
-                <div class="small-img-col">
-                    <img src="img/products/p14.jpg" width="100%" class="small-img" alt="This is an image">
-                </div>
-
-                <div class="small-img-col">
-                    <img src="img/products/p15.jpg" width="100%" class="small-img" alt="This is an image">
-                </div>
-            </div>
+        <div class="small-img-col">
+          <img src="img/products/p13.jpg" width="100%" class="small-img" alt="This is an image" />
         </div>
 
-        <div class="single-pro-details">
-            <h6>Home / T-Shirt</h6>
-            <h4>Men's Fasion T-Shirt</h4>
-            <h2>$129.00</h2>
-            <select>
-                <option>Select Size</option>
-                <option>M</option>
-                <option>XL</option>
-                <option>XXL</option>
-            </select>
-            <input type="number" value="1">
-            <button class="normal">Add to Cart</button>
-            <h4>Product Details</h4>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum error ad magnam, aspernatur vel
-                necessitatibus, possimus non odio, officiis totam quos? Beatae ut ipsum impedit aut amet quibusdam quam
-                rem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem eos quos ipsa! Distinctio
-                tempore enim dolor illum magnam! Odit, ab. Alias assumenda repellat debitis, magnam voluptatem ipsum
-                unde. Nostrum, nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minima accusamus
-                voluptatem dicta molestiae illo. Molestias obcaecati quasi sint consequatur? Perferendis in temporibus,
-                sed saepe beatae reiciendis quia numquam. Fuga.</p>
-        </div>
-    </section>
-
-    <section id="product1" class="section-p1">
-        <h2>Featured Products</h2>
-
-        <div class="pro-container">
-            <div class="pro">
-                <img src="img/products/f1.jpg">
-
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>High Quality Shirts</h5>
-
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$59</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="img/products/f2.jpg">
-
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Quality Shirts</h5>
-
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$49</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="img/products/f3.jpg">
-
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>Great Quality Shirts</h5>
-
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$79</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
-            </div>
-
-            <div class="pro">
-                <img src="img/products/f4.jpg">
-
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>High Quality Cotton Shirts</h5>
-
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$89</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="newsletter" class="section-p1 section-m1">
-        <div id="nwsbrdr">
-            <div class="newstext">
-                <h4>Sign Up For Newsletters</h4>
-                <p>Get E-mail Updates about our <span>latest offers</span> & <span>Great Deals.</span></p>
-            </div>
-
-            <div class="form">
-                <input type="text" placeholder="Enter Your Email">
-                <button class="normal">Sign Up</button>
-            </div>
-        </div>
-    </section>
-
-    <footer class="section-p1">
-        <div class="col">
-            <h4>Contact Us</h4>
-            <p><strong>Address:</strong> 420/69 East Berlin, Germany</p>
-            <p><strong>Phone:</strong> +49123456789</p>
-            <p><strong>Hours:</strong> 10:00 am - 08:00 pm, Mon - Sat</p>
-
-            <div class="follow">
-                <h4>Social Media</h4>
-                <div class="icon">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-youtube"></i>
-                    <i class="fab fa-linkedin"></i>
-                </div>
-            </div>
+        <div class="small-img-col">
+          <img src="img/products/p14.jpg" width="100%" class="small-img" alt="This is an image" />
         </div>
 
-        <div class="col">
-            <h4>About</h4>
-            <a href="">About us</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Contact Us</a>
-            <a href="">Terms & Conditions</a>
-            <a href="">Delivery Informations</a>
+        <div class="small-img-col">
+          <img src="img/products/p15.jpg" width="100%" class="small-img" alt="This is an image" />
         </div>
+      </div>
+    </div>
 
-        <div class="col">
-            <h4>My Account</h4>
-            <a href=""></a>
-            <a href="">Sign In</a>
-            <a href="">View Cart</a>
-            <a href="">My Wishlist</a>
-            <a href="">Track My Order</a>
+    <div class="single-pro-details">
+      <h6>Home / T-Shirt</h6>
+      <h4>Men's Fasion T-Shirt</h4>
+      <h2>$129.00</h2>
+      <select>
+        <option>Select Size</option>
+        <option>M</option>
+        <option>XL</option>
+        <option>XXL</option>
+      </select>
+      <input type="number" value="1" />
+      <button class="normal">Add to Cart</button>
+      <h4>Product Details</h4>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum error
+        ad magnam, aspernatur vel necessitatibus, possimus non odio, officiis
+        totam quos? Beatae ut ipsum impedit aut amet quibusdam quam rem. Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem eos
+        quos ipsa! Distinctio tempore enim dolor illum magnam! Odit, ab. Alias
+        assumenda repellat debitis, magnam voluptatem ipsum unde. Nostrum,
+        nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+        minima accusamus voluptatem dicta molestiae illo. Molestias obcaecati
+        quasi sint consequatur? Perferendis in temporibus, sed saepe beatae
+        reiciendis quia numquam. Fuga.
+      </p>
+    </div>
+  </section>
+
+  <section id="product1" class="section-p1">
+    <h2>Featured Products</h2>
+
+    <div class="pro-container">
+      <div class="pro">
+        <img src="img/products/f1.jpg" />
+
+        <div class="des">
+          <span>adidas</span>
+          <h5>High Quality Shirts</h5>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$59</h4>
         </div>
+        <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
 
-        <div class="col">
-            <h4>Install App</h4>
-            <div class="install">
-                <img src="img/install.png" alt="Install Our App">
-            </div>
+      <div class="pro">
+        <img src="img/products/f2.jpg" />
 
-            <h4>Secured Payment Getways</h4>
-            <div class="install">
-                <img src="img/pay.png" alt="Install Our App">
-            </div>
+        <div class="des">
+          <span>adidas</span>
+          <h5>Quality Shirts</h5>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$49</h4>
         </div>
+        <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
 
-    </footer>
+      <div class="pro">
+        <img src="img/products/f3.jpg" />
 
-    <section id="copyright" class="section-p1">
-        <div class="copyright">
-            <p>&copy; 2022 All Rights Reserved by Nadim Chowdhury as Full Stack Web Developer</p>
+        <div class="des">
+          <span>adidas</span>
+          <h5>Great Quality Shirts</h5>
+
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$79</h4>
         </div>
-    </section>
+        <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
 
-    <script>
-        let mainImg = document.getElementById('mainImg');
-        let smallImg = document.getElementsByClassName('small-img');
+      <div class="pro">
+        <img src="img/products/f4.jpg" />
 
-        smallImg[0].onclick = function () {
-            mainImg.src = smallImg[0].src;
-        }
+        <div class="des">
+          <span>adidas</span>
+          <h5>High Quality Cotton Shirts</h5>
 
-        smallImg[1].onclick = function () {
-            mainImg.src = smallImg[1].src;
-        }
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$89</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
+    </div>
+  </section>
 
-        smallImg[2].onclick = function () {
-            mainImg.src = smallImg[2].src;
-        }
+  <section id="newsletter" class="section-p1 section-m1">
+    <div id="nwsbrdr">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail Updates about our <span>latest offers</span> &
+          <span>Great Deals.</span>
+        </p>
+      </div>
 
-        smallImg[3].onclick = function () {
-            mainImg.src = smallImg[3].src;
-        }
-    </script>
+      <div class="form">
+        <input type="text" placeholder="Enter Your Email" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <footer class="section-p1">
+    <div class="col">
+      <h4>Contact Us</h4>
+      <p><strong>Address:</strong> 420/69 East Berlin, Germany</p>
+      <p><strong>Phone:</strong> +49123456789</p>
+      <p><strong>Hours:</strong> 10:00 am - 08:00 pm, Mon - Sat</p>
+
+      <div class="follow">
+        <h4>Social Media</h4>
+        <div class="icon">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h4>About</h4>
+      <a href="">About us</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Contact Us</a>
+      <a href="">Terms & Conditions</a>
+      <a href="">Delivery Informations</a>
+    </div>
+
+    <div class="col">
+      <h4>My Account</h4>
+      <a href=""></a>
+      <a href="">Sign In</a>
+      <a href="">View Cart</a>
+      <a href="">My Wishlist</a>
+      <a href="">Track My Order</a>
+    </div>
+
+    <div class="col">
+      <h4>Install App</h4>
+      <div class="install">
+        <img src="img/install.png" alt="Install Our App" />
+      </div>
+
+      <h4>Secured Payment Getways</h4>
+      <div class="install">
+        <img src="img/pay.png" alt="Install Our App" />
+      </div>
+    </div>
+  </footer>
+
+  <section id="copyright" class="section-p1">
+    <div class="copyright">
+      <p>
+        &copy; 2022 All Rights Reserved by Nadim Chowdhury as Full Stack Web
+        Developer
+      </p>
+    </div>
+  </section>
+
+  <script>
+    let mainImg = document.getElementById("mainImg");
+    let smallImg = document.getElementsByClassName("small-img");
+
+    smallImg[0].onclick = function () {
+      mainImg.src = smallImg[0].src;
+    };
+
+    smallImg[1].onclick = function () {
+      mainImg.src = smallImg[1].src;
+    };
+
+    smallImg[2].onclick = function () {
+      mainImg.src = smallImg[2].src;
+    };
+
+    smallImg[3].onclick = function () {
+      mainImg.src = smallImg[3].src;
+    };
+  </script>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
