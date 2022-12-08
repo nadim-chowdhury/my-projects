@@ -18,9 +18,10 @@
 
 .logo {
     margin: 6px 12px;
+    font-size: 1.25rem;
 }
 
-.logo span:hover {
+.logo span {
     color: #9fb603;
     transition: 0.4s;
 }
@@ -43,12 +44,14 @@
     border-radius: 20px;
     color: #14213d;
     background-color: #ffffff;
+    border: 2px solid #9fb603;
 }
 
 .btn button:hover {
     color: #ffffff;
-    background-color: #14213d;
+    background-color: #9fb603;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 #main {
