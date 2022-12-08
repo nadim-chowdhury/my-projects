@@ -2,4 +2,4 @@
 One of my ( Nadim Chowdhury ) projects !
 
 Favourite Languages : 
-HTML, CSS, JavaScript, PHP, MySQL
+HTML, CSS, JavaScript, Bootstrap, jQuery, React Js, PHP, MySQL
