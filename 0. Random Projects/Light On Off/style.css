@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(3, 3, 28);
+    margin: 0 auto;
+}
+
+h1{
+    color: aqua;
+}
+
+img{
+    width: 220px;
+    height: 440px;
+}
+
+button{
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.container{
+    text-align: center;
+    font-size: 20px;
+}
+
+.img-btn{
+    margin: 0 auto;
+}
